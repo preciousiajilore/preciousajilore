@@ -1,0 +1,2 @@
+# preciousajilore
+All about me :)
