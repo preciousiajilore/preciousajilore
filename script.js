@@ -45,6 +45,15 @@ function checkTimelineScroll(){
   scrolling=false;
   };
 
+  //Scroll adjustment for the About section
+  document.querySelector('a.nav-link[href="#about"]').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.querySelector('#about').scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  });
+
 
 })();
 
